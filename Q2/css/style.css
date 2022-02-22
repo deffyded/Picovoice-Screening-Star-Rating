@@ -1,0 +1,14 @@
+.star {
+	display: inline-block;
+	size: 20px;
+	height: 20px;
+	content: url(https://cdn.discordapp.com/attachments/806688620533907536/945450599938424892/outline.png);
+}
+
+.star.selected {
+	content: url(https://cdn.discordapp.com/attachments/806688620533907536/945450599460245504/black.png);
+}
+
+.star.hover {
+	content: url(https://cdn.discordapp.com/attachments/806688620533907536/945450599678345226/grey.png);
+}
