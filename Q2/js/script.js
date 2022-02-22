@@ -3,7 +3,7 @@ var rating;
 $(function () {
 	rating = 0; // get current user rating of product not implemented
 	$(".star")
-		.each(function () {
+		.each(function () { // add selected based on current rating
 			if (parseInt($(this).attr("rating")) <= rating) {
 				$(this).addClass("selected");
 			}
@@ -21,7 +21,7 @@ $(function () {
 			$.ajax({ // post rating to web server
 				type: "POST",
 				url: "", // web server url 
-				data: { "UUID": 0, "rating": rating, "userId": 0 }
+				data: { "pid": 0, "rating": rating, "uid": 0 }
 			});
 		})
 		.mouseleave(function () {
