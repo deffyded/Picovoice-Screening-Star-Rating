@@ -5,10 +5,10 @@
 	content: url(https://raw.githubusercontent.com/deffyded/Picovoice-Screening/main/Q2/img/outline.png?token=GHSAT0AAAAAABQILZLITBLC34L5B5GXLJ4WYQ52LAA);
 }
 
-.star.selected {
-	content: url(https://raw.githubusercontent.com/deffyded/Picovoice-Screening/main/Q2/img/black.png?token=GHSAT0AAAAAABQILZLJRY553GEBZKQ752SSYQ52JVQ);
-}
-
 .star.hover {
 	content: url(https://raw.githubusercontent.com/deffyded/Picovoice-Screening/main/Q2/img/grey.png?token=GHSAT0AAAAAABQILZLJKUCVMNXLY6PU5QY4YQ52KSQ);
+}
+
+.star.selected {
+	content: url(https://raw.githubusercontent.com/deffyded/Picovoice-Screening/main/Q2/img/black.png?token=GHSAT0AAAAAABQILZLJRY553GEBZKQ752SSYQ52JVQ);
 }
