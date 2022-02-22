@@ -3,6 +3,11 @@ var rating;
 $(function () {
 	rating = 0; // get current user rating of product not implemented
 	$(".star")
+		.each(function () {
+			if (parseInt($(this).attr("rating")) <= rating) {
+				$(this).addClass("selected");
+			}
+		})
 		.click(function () {
 			rating = parseInt($(this).attr("rating"));
 			$(".star").each(function () {
